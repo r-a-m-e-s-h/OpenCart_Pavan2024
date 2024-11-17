@@ -1,4 +1,3 @@
-//this is sample file for ci process
 CI
 ---
 in the initial build we dont do the automation scripts
@@ -37,8 +36,6 @@ it is one time work for a project( for different project we need do again)
 make connection between local and remote ,one time job
 9.git push origin master -> local to remote
 10. git pull "remote repo url"
-
-// tomorrow will add jenkins process
 
 
 
