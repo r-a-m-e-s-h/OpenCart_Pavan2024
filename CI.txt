@@ -35,7 +35,64 @@ it is one time work for a project( for different project we need do again)
 8.git remote add origin "url" 
 make connection between local and remote ,one time job
 9.git push origin master -> local to remote
-10. git pull "remote repo url"
+10. git pull "remote repo url"-> pull file from remote repo
+
+=============================================
+how to clone and review it ?
+project already in GitHub and clone it from remote and review it in local .
+
+we need to go to the location where want to clone the project in local and create new folder there.
+
+go inside the folder and right click - git bashHere and clone it using command
+
+11.git clone "remote url"
+
+what is the difference between pull and clone?
+pull command we use when the project is already existed in the remote and the local in both places we will prefer pull command.
+if the project is exist in the remote but not in the local then we use clone command. 
+
+how to resolve git conflict?
+
+
+
+
+-----------------------------------------------
+what is Jenkins?
+
+GitHub should be public then only Jenkins work
+
+It is a Continues integration tool
+i.e. testing and development happen in parallel
+by devops team.
+it works based on we need to commit and push our code daily.
+devops run the job in night time 
+
+cd- continuous deployment or deliver
+once testing and development completed we delivery a piece of software to client i.e. continues deployment.
+
+CI- testing and development
+cd-delivery
+
+after development and tested the build and it is once build is stable we deploy it.
+
+CI process achieve through- Jenkins
+Jenkins pull code from GitHub
+
+work flow 
+---------
+it create a Build , Package it , automation execution will happen on the build then build is certified
+
+Jenkins pipeline process
+-------------------------
+Jenkins - create a build from developer GitHub code and package it then test it with automation testcase from the testers GitHub code and once the test cases are passed then the build will be  certified.
+
+every day the pipeline will be running by the Jenkins team.
+
+these pipelines are achieved with the help of maven 
+
+most of the time Sanity and regression testcases are executed.
+
+By default it follow headless mode of testing.
 
 
 
