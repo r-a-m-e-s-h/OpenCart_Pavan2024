@@ -1,0 +1,36 @@
+<suite name="OpenCart Sanity Suite">
+
+<listeners>
+
+<listener class-name="utilites_OpenCart.ExtentReportManager" />
+
+</listeners>
+
+	<groups>
+
+		<run>
+
+			<include name="Sanity" />
+			<include name ="DataDriven" />
+
+		</run>
+
+	</groups>
+
+	<test name="Sanity Tests">
+
+		<parameter name="OS" value="windows" />
+		<parameter name="Browser" value="chrome" />
+
+		<classes>
+
+			<class name="testCases_OpenCart.HomePage_TC001" />
+			<class name="testCases_OpenCart.AccRegistration_TC002" />
+			<class name="testCases_OpenCart.Login_TC003" />
+			<class name="testCases_OpenCart.DDLogin_TC_004" />
+
+		</classes>
+
+	</test>
+
+</suite>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Grid-Docker SUite">
+
+	<listeners>
+
+		<listener class-name="utilites_OpenCart.ExtentReportManager" />
+
+	</listeners>
+
+	<test name="grid test">
+
+		<parameter name="OS" value="Linux" />
+		<parameter name="Browser" value="firefox" />
+
+		<classes>
+
+			<class name="testCases_OpenCart.HomePage_TC001" />
+			<class name="testCases_OpenCart.AccRegistration_TC002" />
+			<class name="testCases_OpenCart.Login_TC003" />
+			<class name="testCases_OpenCart.DDLogin_TC_004" />
+
+		</classes>
+
+
+	</test>
+
+</suite>

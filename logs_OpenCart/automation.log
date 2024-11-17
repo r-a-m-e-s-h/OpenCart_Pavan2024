@@ -1,0 +1,53 @@
+2024-11-17 18:57:06 WARN  TestNGContentHandler:133 - It is strongly recommended to add "<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.1.dtd" >" at the top of the suite file [C:\Users\rames\eclipse-workspace\OpenCart_Pavan2024\openCartTestNG.xml] otherwise TestNG may fail or not work as expected.
+2024-11-17 18:57:06 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\rames\eclipse-workspace\OpenCart_Pavan2024\openCartTestNG.xml
+
+2024-11-17 18:57:10 INFO  HomePage_TC001:104 - browser Opened
+2024-11-17 18:57:10 INFO  HomePage_TC001:14 - =======Starting HomePage_TC001=======
+2024-11-17 18:57:10 INFO  HomePage_TC001:25 - =======Finsihed HomePage_TC001=======
+2024-11-17 18:57:10 INFO  HomePage_TC001:114 - browser closed
+2024-11-17 18:57:13 INFO  AccRegistration_TC002:104 - browser Opened
+2024-11-17 18:57:13 INFO  AccRegistration_TC002:18 - =======Starting AccRegistration_TC002=======
+2024-11-17 18:57:15 INFO  AccRegistration_TC002:46 - =======Finished AccRegistration_TC002=======
+2024-11-17 18:57:15 INFO  AccRegistration_TC002:114 - browser closed
+2024-11-17 18:57:17 INFO  Login_TC003:104 - browser Opened
+2024-11-17 18:57:17 INFO  Login_TC003:15 - =======Starting Login_TC003=======
+2024-11-17 18:57:18 INFO  Login_TC003:35 - =======Finshed Login_TC003=======
+2024-11-17 18:57:18 INFO  Login_TC003:114 - browser closed
+2024-11-17 18:57:20 INFO  DDLogin_TC_004:104 - browser Opened
+2024-11-17 18:57:21 INFO  DDLogin_TC_004:30 - ======Starting DDLogin_TC_004========
+2024-11-17 18:57:22 INFO  DDLogin_TC_004:77 - ======Finished DDLogin_TC_004========
+2024-11-17 18:57:22 INFO  DDLogin_TC_004:30 - ======Starting DDLogin_TC_004========
+2024-11-17 18:57:23 INFO  DDLogin_TC_004:77 - ======Finished DDLogin_TC_004========
+2024-11-17 18:57:23 INFO  DDLogin_TC_004:30 - ======Starting DDLogin_TC_004========
+2024-11-17 18:57:34 INFO  DDLogin_TC_004:77 - ======Finished DDLogin_TC_004========
+2024-11-17 18:57:34 INFO  DDLogin_TC_004:30 - ======Starting DDLogin_TC_004========
+2024-11-17 18:57:45 INFO  DDLogin_TC_004:77 - ======Finished DDLogin_TC_004========
+2024-11-17 18:57:45 INFO  DDLogin_TC_004:30 - ======Starting DDLogin_TC_004========
+2024-11-17 18:57:56 INFO  DDLogin_TC_004:77 - ======Finished DDLogin_TC_004========
+2024-11-17 18:57:56 INFO  DDLogin_TC_004:114 - browser closed
+2024-11-17 22:37:02 WARN  TestNGContentHandler:133 - It is strongly recommended to add "<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.1.dtd" >" at the top of the suite file [C:\Users\rames\eclipse-workspace\OpenCart_Pavan2024\openCartTestNG.xml] otherwise TestNG may fail or not work as expected.
+2024-11-17 22:37:08 INFO  HomePage_TC001:104 - browser Opened
+2024-11-17 22:37:08 INFO  HomePage_TC001:14 - =======Starting HomePage_TC001=======
+2024-11-17 22:37:08 INFO  HomePage_TC001:25 - =======Finsihed HomePage_TC001=======
+2024-11-17 22:37:08 INFO  HomePage_TC001:114 - browser closed
+2024-11-17 22:37:11 INFO  AccRegistration_TC002:104 - browser Opened
+2024-11-17 22:37:11 INFO  AccRegistration_TC002:18 - =======Starting AccRegistration_TC002=======
+2024-11-17 22:37:13 INFO  AccRegistration_TC002:46 - =======Finished AccRegistration_TC002=======
+2024-11-17 22:37:13 INFO  AccRegistration_TC002:114 - browser closed
+2024-11-17 22:37:16 INFO  Login_TC003:104 - browser Opened
+2024-11-17 22:37:16 INFO  Login_TC003:15 - =======Starting Login_TC003=======
+2024-11-17 22:37:22 INFO  Login_TC003:35 - =======Finshed Login_TC003=======
+2024-11-17 22:37:22 INFO  Login_TC003:114 - browser closed
+2024-11-17 22:37:27 INFO  DDLogin_TC_004:104 - browser Opened
+2024-11-17 22:37:35 INFO  DDLogin_TC_004:30 - ======Starting DDLogin_TC_004========
+2024-11-17 22:37:38 INFO  DDLogin_TC_004:77 - ======Finished DDLogin_TC_004========
+2024-11-17 22:37:38 INFO  DDLogin_TC_004:30 - ======Starting DDLogin_TC_004========
+2024-11-17 22:37:42 INFO  DDLogin_TC_004:77 - ======Finished DDLogin_TC_004========
+2024-11-17 22:37:42 INFO  DDLogin_TC_004:30 - ======Starting DDLogin_TC_004========
+2024-11-17 22:37:54 INFO  DDLogin_TC_004:77 - ======Finished DDLogin_TC_004========
+2024-11-17 22:37:54 INFO  DDLogin_TC_004:30 - ======Starting DDLogin_TC_004========
+2024-11-17 22:38:05 INFO  DDLogin_TC_004:77 - ======Finished DDLogin_TC_004========
+2024-11-17 22:38:05 INFO  DDLogin_TC_004:30 - ======Starting DDLogin_TC_004========
+2024-11-17 22:38:17 INFO  DDLogin_TC_004:77 - ======Finished DDLogin_TC_004========
+2024-11-17 22:38:17 INFO  DDLogin_TC_004:114 - browser closed

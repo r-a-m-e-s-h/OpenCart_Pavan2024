@@ -1,0 +1,39 @@
+<suite name="OpenCart Functional Suite" thread-count ="5" parallel="tests">
+
+<listeners>
+
+<listener class-name="utilites_OpenCart.ExtentReportManager" />
+
+</listeners>
+
+	<test name="chrome Tests" >
+
+		<parameter name="OS" value="windows" />
+		<parameter name="Browser" value="chrome" />
+
+		<classes>
+
+			<class name="testCases_OpenCart.AccRegistration_TC002" />
+
+		</classes>
+
+	</test>
+
+
+	<test name="edge Tests" >
+
+		<parameter name="OS" value="windows" />
+		<parameter name="Browser" value="edge" />
+
+		<classes>
+
+			<class name="testCases_OpenCart.AccRegistration_TC002" />
+
+		</classes>
+
+	</test>
+
+
+
+
+</suite>

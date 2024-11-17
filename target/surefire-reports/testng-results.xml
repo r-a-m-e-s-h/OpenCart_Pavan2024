@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="8" passed="8" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-11-17T22:37:03 IST" name="OpenCart Functional Suite" finished-at="2024-11-17T22:38:17 IST" duration-ms="74446">
+    <groups>
+      <group name="Sanity">
+        <method signature="AccRegistration_TC002.AccRegtest()[pri:0, instance:testCases_OpenCart.AccRegistration_TC002@2fc0cc3]" name="AccRegtest" class="testCases_OpenCart.AccRegistration_TC002"/>
+        <method signature="HomePage_TC001.homePageTest()[pri:0, instance:testCases_OpenCart.HomePage_TC001@f667fe]" name="homePageTest" class="testCases_OpenCart.HomePage_TC001"/>
+        <method signature="Login_TC003.Logintest()[pri:0, instance:testCases_OpenCart.Login_TC003@328cf0e1]" name="Logintest" class="testCases_OpenCart.Login_TC003"/>
+      </group> <!-- Sanity -->
+      <group name="DataDriven">
+        <method signature="DDLogin_TC_004.testDDLogin(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases_OpenCart.DDLogin_TC_004@63b1d4fa]" name="testDDLogin" class="testCases_OpenCart.DDLogin_TC_004"/>
+      </group> <!-- DataDriven -->
+      <group name="Smoke">
+        <method signature="AccRegistration_TC002.AccRegtest()[pri:0, instance:testCases_OpenCart.AccRegistration_TC002@2fc0cc3]" name="AccRegtest" class="testCases_OpenCart.AccRegistration_TC002"/>
+        <method signature="HomePage_TC001.homePageTest()[pri:0, instance:testCases_OpenCart.HomePage_TC001@f667fe]" name="homePageTest" class="testCases_OpenCart.HomePage_TC001"/>
+        <method signature="Login_TC003.Logintest()[pri:0, instance:testCases_OpenCart.Login_TC003@328cf0e1]" name="Logintest" class="testCases_OpenCart.Login_TC003"/>
+      </group> <!-- Smoke -->
+    </groups>
+    <test started-at="2024-11-17T22:37:03 IST" name="Functional Tests" finished-at="2024-11-17T22:38:17 IST" duration-ms="74446">
+      <class name="testCases_OpenCart.AccRegistration_TC002">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:testCases_OpenCart.AccRegistration_TC002@2fc0cc3]" started-at="2024-11-17T22:37:08 IST" name="setUp" finished-at="2024-11-17T22:37:11 IST" duration-ms="2196" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="AccRegtest()[pri:0, instance:testCases_OpenCart.AccRegistration_TC002@2fc0cc3]" started-at="2024-11-17T22:37:11 IST" name="AccRegtest" finished-at="2024-11-17T22:37:13 IST" duration-ms="1822" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AccRegtest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases_OpenCart.AccRegistration_TC002@2fc0cc3]" started-at="2024-11-17T22:37:13 IST" name="tearDown" finished-at="2024-11-17T22:37:13 IST" duration-ms="320" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases_OpenCart.AccRegistration_TC002 -->
+      <class name="testCases_OpenCart.DDLogin_TC_004">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:testCases_OpenCart.DDLogin_TC_004@63b1d4fa]" started-at="2024-11-17T22:37:22 IST" name="setUp" finished-at="2024-11-17T22:37:27 IST" duration-ms="4278" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testDDLogin(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases_OpenCart.DDLogin_TC_004@63b1d4fa]" started-at="2024-11-17T22:37:35 IST" name="testDDLogin" data-provider="LoginData1" finished-at="2024-11-17T22:37:38 IST" duration-ms="3294" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[tomjerrytester@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[test@123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[valid]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDDLogin -->
+        <test-method signature="testDDLogin(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases_OpenCart.DDLogin_TC_004@63b1d4fa]" started-at="2024-11-17T22:37:38 IST" name="testDDLogin" data-provider="LoginData1" finished-at="2024-11-17T22:37:42 IST" duration-ms="4160" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[abc123@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[test@123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[valid]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDDLogin -->
+        <test-method signature="testDDLogin(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases_OpenCart.DDLogin_TC_004@63b1d4fa]" started-at="2024-11-17T22:37:42 IST" name="testDDLogin" data-provider="LoginData1" finished-at="2024-11-17T22:37:54 IST" duration-ms="12078" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[test@test.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[test@123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[invalid]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDDLogin -->
+        <test-method signature="testDDLogin(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases_OpenCart.DDLogin_TC_004@63b1d4fa]" started-at="2024-11-17T22:37:54 IST" name="testDDLogin" data-provider="LoginData1" finished-at="2024-11-17T22:38:05 IST" duration-ms="11284" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Testerram@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[ram@123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[invalid]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDDLogin -->
+        <test-method signature="testDDLogin(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases_OpenCart.DDLogin_TC_004@63b1d4fa]" started-at="2024-11-17T22:38:05 IST" name="testDDLogin" data-provider="LoginData1" finished-at="2024-11-17T22:38:17 IST" duration-ms="11271" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[SaroRamesh@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[SaroRamesh@1123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[invalid]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDDLogin -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases_OpenCart.DDLogin_TC_004@63b1d4fa]" started-at="2024-11-17T22:38:17 IST" name="tearDown" finished-at="2024-11-17T22:38:17 IST" duration-ms="529" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases_OpenCart.DDLogin_TC_004 -->
+      <class name="testCases_OpenCart.Login_TC003">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:testCases_OpenCart.Login_TC003@328cf0e1]" started-at="2024-11-17T22:37:13 IST" name="setUp" finished-at="2024-11-17T22:37:16 IST" duration-ms="2866" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="Logintest()[pri:0, instance:testCases_OpenCart.Login_TC003@328cf0e1]" started-at="2024-11-17T22:37:16 IST" name="Logintest" finished-at="2024-11-17T22:37:22 IST" duration-ms="6131" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Logintest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases_OpenCart.Login_TC003@328cf0e1]" started-at="2024-11-17T22:37:22 IST" name="tearDown" finished-at="2024-11-17T22:37:22 IST" duration-ms="489" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases_OpenCart.Login_TC003 -->
+      <class name="testCases_OpenCart.HomePage_TC001">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:testCases_OpenCart.HomePage_TC001@f667fe]" started-at="2024-11-17T22:37:03 IST" name="setUp" finished-at="2024-11-17T22:37:08 IST" duration-ms="4447" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="homePageTest()[pri:0, instance:testCases_OpenCart.HomePage_TC001@f667fe]" started-at="2024-11-17T22:37:08 IST" name="homePageTest" finished-at="2024-11-17T22:37:08 IST" duration-ms="644" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homePageTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases_OpenCart.HomePage_TC001@f667fe]" started-at="2024-11-17T22:37:08 IST" name="tearDown" finished-at="2024-11-17T22:37:08 IST" duration-ms="205" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases_OpenCart.HomePage_TC001 -->
+    </test> <!-- Functional Tests -->
+  </suite> <!-- OpenCart Functional Suite -->
+</testng-results>
