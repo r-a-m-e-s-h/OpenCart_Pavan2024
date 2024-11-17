@@ -1,0 +1,50 @@
+//this is sample file for ci process
+CI
+---
+in the initial build we dont do the automation scripts
+after 2 to 3 build only we start creating our automation scripts
+most of the time sanity testcase is tested in jenkins i.e basic functionalities tested
+
+maven-build tool
+jenkins-run our automation
+github- code maintenance
+
+how qa works:
+at the end of the day we need push the modified code to GitHub
+
+2 tools needed:
+---------------
+git installation
+crate account with GitHub
+ 
+Git- local repo
+GitHub-remote repo
+
+git and GitHub workflow:
+-------------------------
+working directory(add command) - staging area(commit command) - git repo(push command) - github
+
+
+1.To create a local repo we need to use git init command
+it is one time work for a project( for different project we need do again)
+2.git status - shows the untracked files
+3.git add -A -> add all untracked files
+4.git add filename ->add only specific file
+5. git add foldername -> add specific folder
+6.git commit -m "message" ->commits code innlocal repo
+7.create new repo in GitHub and copy the url
+8.git remote add origin "url" 
+make connection between local and remote ,one time job
+9.git push origin master -> local to remote
+10. git pull "remote repo url"
+
+
+
+
+
+
+
+
+
+
+
